@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 import me.loda.springsecurityhibernatejwt.user.CustomUserDetails;
 
 /**
- * Copyright 2019 {@author Loda} (https://loda.me).
+ * Copyright 2020 {@author Loda} (https://loda.me).
  * This project is licensed under the MIT license.
  *
  * @since 5/1/2019
@@ -26,7 +26,7 @@ import me.loda.springsecurityhibernatejwt.user.CustomUserDetails;
 @Component
 @Slf4j
 public class JwtTokenProvider {
-    private final String JWT_SECRET = "lodaaaaaa";
+    private final String JWT_SECRET = "Andy";
     private final long JWT_EXPIRATION = 604800000L;
 
     public String generateToken(CustomUserDetails userDetails) {
