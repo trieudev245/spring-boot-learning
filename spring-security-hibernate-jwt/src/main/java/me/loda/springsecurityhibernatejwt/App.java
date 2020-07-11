@@ -40,8 +40,8 @@ public class App implements CommandLineRunner {
         // Khi chương trình chạy
         // Insert vào csdl một user.
         User user = new User();
-        user.setUsername("loda");
-        user.setPassword(passwordEncoder.encode("loda"));
+        user.setUsername("andy");
+        user.setPassword(passwordEncoder.encode("1234"));
         userRepository.save(user);
         System.out.println(user);
     }
